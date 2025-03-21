@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="description" content="My first webpage, with JavaScript">
     <meta name="keywords" content="immaculata, ics2o">
-    <meta name="author" content="Ms Raffin">
+    <meta name="author" content="Abdul">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
@@ -19,9 +19,8 @@
 			$length = 12;  
 		 	$width = 4; 
 			echo "<p>Length = $length cm<br>Width = $width cm</p>"; ?>		
-		<?php 
-            echo "<p>The perimeter of a rectangle with dimensions $length and $width cm = " . 2 * ($length + $width) . "cm<sup>2</sup></p>"
-		    echo "<p>The area of a rectangle with dimensions $length and $width cm = " . ($length * $width) . "cm<sup>2</sup></p>";  
+		<?php echo "<p>The area of a rectangle with dimensions $length and $width cm = " . ($length * $width) . "cm<sup>2</sup></p>"; 
 		  ?>  
+        <?php echo "<p>The perimeter of a rectangle with dimensions $length and $width cm = " . 2 * ($length + $width) . "cm<sup>2</sup></p>" ; ?>
 	</body>
 </html>
