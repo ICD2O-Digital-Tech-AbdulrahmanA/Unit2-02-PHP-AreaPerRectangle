@@ -20,7 +20,8 @@
 		 	$width = 4; 
 			echo "<p>Length = $length cm<br>Width = $width cm</p>"; ?>		
 		<?php 
-		 echo "<p>The area of a rectangle with dimensions $length cm x $width cm = " . ($length * $width) . "cm<sup>2</sup></p>";  
+        echo "<p>The perimeter of a rectangle with dimensions $length and $width cm = " . 2 * ($lenght + $width) . "cm<sup>2</sup></p>"
+		 echo "<p>The area of a rectangle with dimensions $length and $width cm = " . ($length * $width) . "cm<sup>2</sup></p>";  
 		  ?>  
 	</body>
 </html>
